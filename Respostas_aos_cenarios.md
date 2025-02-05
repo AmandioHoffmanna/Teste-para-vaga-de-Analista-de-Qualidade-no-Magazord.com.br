@@ -16,16 +16,16 @@
   
 **2° Cenário:**
 1. Documentação e Materiais de Apoio:
-   * Identificação da documentação: Iria verificar os requistos da integração, acessar a documentação da ferramenta Bling que estiverem disponíveis e se houver, documentação criada pelo time de regra.
-   * Mapeamento dos requisitos: Iria mapear os requisitos, fazendo com cada qual, tenha seu caso de teste específico.
-   * Utilização de ferramentas: Utilizaria ferramentas como o Postman para validar as requisições e o Jira para realizar o mapeamento e gerenciamento dos requisitos.
+ * Identificação da documentação: Iria verificar os requistos da integração, acessar a documentação da ferramenta Bling que estiverem disponíveis e se houver, documentação criada pelo time de regra.
+ * Mapeamento dos requisitos: Iria mapear os requisitos, fazendo com cada qual, tenha seu caso de teste específico.
+ * Utilização de ferramentas: Utilizaria ferramentas como o Postman para validar as requisições e o Jira para realizar o mapeamento e gerenciamento dos requisitos.
 2. Abrangência dos Testes:
-   * Funcionalidades: Iria realizar a verificação da API com a Bling, analisar o sistema de controle de estoque, verificando as atualizações do mesmo, entra e saída de produtos.
-   * Priorização dos testes: A prioridade seria a atualização do estoque em tempo real, a fim de evitar transtornos. A entrada e saída correta dos produtos é essencial para evitar despesa.
+ * Funcionalidades: Iria realizar a verificação da API com a Bling, analisar o sistema de controle de estoque, verificando as atualizações do mesmo, entra e saída de produtos.
+ * Priorização dos testes: A prioridade seria a atualização do estoque em tempo real, a fim de evitar transtornos. A entrada e saída correta dos produtos é essencial para evitar despesa.
 3. Execução dos Testes:
-   * Dados de teste: Iria realizar a inserção de dados ficticios através do banco de dados.
-   * Ferramentas de automação: Seria utilizado uma ferramente para análise das requisições das API´s.
-   * Registro de resultados: Os resultados seriam catalogados conforme os casos de teste, separando pelas ferramentas utilizadas e os resultados obtidos. Assim, apontando os pontos corretos e incorretos, tornando possível uma visualização direta dos pontos que necessitam atenção. Um sistema de gerênciamento tanto quanto uma planilha no excel, seriam úteis para manter este controle. Ao fim, um relatório citando os passos e resultados obtidos para ter uma visão geral do processo e facilitar a tomada de decisão a partir desta documentação.
+ * Dados de teste: Iria realizar a inserção de dados ficticios através do banco de dados.
+ * Ferramentas de automação: Seria utilizado uma ferramente para análise das requisições das API´s.
+ * Registro de resultados: Os resultados seriam catalogados conforme os casos de teste, separando pelas ferramentas utilizadas e os resultados obtidos. Assim, apontando os pontos corretos e incorretos, tornando possível uma visualização direta dos pontos que necessitam atenção. Um sistema de gerênciamento tanto quanto uma planilha no excel, seriam úteis para manter este controle. Ao fim, um relatório citando os passos e resultados obtidos para ter uma visão geral do processo e facilitar a tomada de decisão a partir desta documentação.
    
 **3º Cenário:**
 Neste caso, iria verificar a documentação do Mercado Livre a fim de verificar quais as regras impostas nos anúncios apra simular uma situação com um anúncio, a fim de verificar se as requisições estão sendo feitas corretas, se a API está atualizando o estoque para "Pausado (sem estoque)" quando o estoque chega a 0 produtos.
