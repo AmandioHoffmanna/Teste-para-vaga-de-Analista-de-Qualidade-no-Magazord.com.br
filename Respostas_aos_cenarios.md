@@ -15,4 +15,21 @@
   * Registro de resultados: Os resultados seriam catalogados conforme os casos de teste, separando pelas ferramentas utilizadas e os resultados obtidos. Assim, apontando os pontos corretos e incorretos, tornando possível uma visualização direta dos pontos que necessitam atenção. Um sistema de gerênciamento tanto quanto uma planilha no excel, seriam úteis para manter este controle. Ao fim, um relatório citando os passos e resultados obtidos para ter uma visão geral do processo e facilitar a tomada de decisão a partir desta documentação.
   
 **2° Cenário:**
+1. Documentação e Materiais de Apoio:
+   * Identificação da documentação: Iria verificar os requistos da integração, acessar a documentação da ferramenta Bling que estiverem disponíveis e se houver, documentação criada pelo time de regra.
+   * Mapeamento dos requisitos: Iria mapear os requisitos, fazendo com cada qual, tenha seu caso de teste específico.
+   * Utilização de ferramentas: Utilizaria ferramentas como o Postman para validar as requisições e o Jira para realizar o mapeamento e gerenciamento dos requisitos.
+2. Abrangência dos Testes:
+   * Funcionalidades: Iria realizar a verificação da API com a Bling, analisar o sistema de controle de estoque, verificando as atualizações do mesmo, entra e saída de produtos.
+   * Priorização dos testes: A prioridade seria a atualização do estoque em tempo real, a fim de evitar transtornos. A entrada e saída correta dos produtos é essencial para evitar despesa.
+3. Execução dos Testes:
+   * Dados de teste: Iria realizar a inserção de dados ficticios através do banco de dados.
+   * Ferramentas de automação: Seria utilizado uma ferramente para análise das requisições das API´s.
+   * Registro de resultados: Os resultados seriam catalogados conforme os casos de teste, separando pelas ferramentas utilizadas e os resultados obtidos. Assim, apontando os pontos corretos e incorretos, tornando possível uma visualização direta dos pontos que necessitam atenção. Um sistema de gerênciamento tanto quanto uma planilha no excel, seriam úteis para manter este controle. Ao fim, um relatório citando os passos e resultados obtidos para ter uma visão geral do processo e facilitar a tomada de decisão a partir desta documentação.
+   
+**3º Cenário:**
+Neste caso, iria verificar a documentação do Mercado Livre a fim de verificar quais as regras impostas nos anúncios apra simular uma situação com um anúncio, a fim de verificar se as requisições estão sendo feitas corretas, se a API está atualizando o estoque para "Pausado (sem estoque)" quando o estoque chega a 0 produtos.
+
+**4º Cenário:**
+Para este caso, iria realizar inserção manual via banco de dados e visualizar o cadastro no sistema para ver como se comporta o registro dessa maneira. Posteriormente iria adicionar diretamente pelo sistema para verificar como o registro se comporta. Iria tentar inserir de diversas maneiras dados incorretos, como número no lugar do nome, nome no lugar do email, nome no lugar do cpf e assim por diante, para verificar se o sistema não está atendendo alguma validação necessária. Outro teste, seria verificar se o usuário tem permissão para realizar a edição de informações dos registros.
 
